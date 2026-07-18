@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="he">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#143a46" name="theme-color"/>
+<meta content="Aspect Boutique Investments - הסבר קצר על רכישת בית פרטי חדש, משלב הקרקע והייזום ועד למסירה, בשכונות מתפתחות ביוסטון, טקסס." name="description"/>
+<title>תהליך רכישת הבית בקצרה | Aspect Boutique Investments</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<style>
+    :root {
+      --teal:#143a46;
+      --teal-2:#1d4e5d;
+      --blue:#29ABE2;
+      --blue-soft:#eaf6fc;
+      --ink:#17262d;
+      --body:#33444d;
+      --muted:#71828b;
+      --line:#dfe8ec;
+      --surface:#ffffff;
+      --tint:#f6f9fb;
+      --sand:#f5f1ea;
+      --max:1180px;
+      --text:760px;
+      --shadow:0 24px 70px -38px rgba(20,58,70,.55);
+      --radius:26px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{
+      font-family:'Assistant',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+      background:var(--surface);color:var(--body);font-size:17px;line-height:1.78;
+      -webkit-text-size-adjust:100%;text-rendering:optimizeLegibility;
+    }
+    img{max-width:100%;display:block}
+    a{color:inherit}
+    .progress{position:fixed;top:0;right:0;height:3px;background:var(--blue);width:0;z-index:100}
+    .topbar{position:sticky;top:0;z-index:80;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(223,232,236,.78)}
+    .topbar .inner{max-width:var(--max);margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:10px 22px}
+    .brand{display:flex;align-items:center;text-decoration:none;min-width:176px}
+    .brand-logo{width:230px;height:60px;object-fit:cover;object-position:50% 50%;border-radius:0}
+    nav{display:flex;align-items:center;gap:22px;font-size:15.5px;color:var(--teal);font-weight:700}
+    nav a{text-decoration:none;opacity:.86;transition:opacity .16s,color .16s}
+    nav a:hover{opacity:1;color:var(--blue)}
+    .nav-cta{background:var(--teal);color:#fff!important;padding:9px 15px;border-radius:999px;opacity:1}
+
+    .hero{position:relative;min-height:76svh;display:grid;align-items:end;overflow:hidden;background:var(--teal);isolation:isolate}
+    .hero::before{content:"";position:absolute;inset:0;background:url('../assets/homes-exterior.jpg') center/cover no-repeat;z-index:-3;transform:scale(1.04)}
+    .hero::after{content:"";position:absolute;inset:0;background:
+      radial-gradient(circle at 20% 20%,rgba(41,171,226,.35),transparent 34%),
+      linear-gradient(90deg,rgba(6,25,31,.20),rgba(6,25,31,.86) 52%,rgba(6,25,31,.96));z-index:-2}
+    .hero-inner{width:100%;max-width:var(--max);margin:auto;padding:84px 24px 58px;display:grid;grid-template-columns:minmax(0,650px) minmax(250px,410px);gap:54px;align-items:end}
+    .hero-card{color:#fff;padding:34px;border:1px solid rgba(255,255,255,.18);background:rgba(9,36,45,.42);box-shadow:0 30px 80px -44px #000;border-radius:30px;backdrop-filter:blur(10px)}
+    .hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(41,171,226,.16);border:1px solid rgba(41,171,226,.45);color:#dff6ff;padding:6px 13px;border-radius:999px;font-size:14px;font-weight:700;margin-bottom:18px;white-space:nowrap;max-width:100%;direction:ltr;unicode-bidi:isolate}
+    .hero h1{font-size:clamp(32px,5vw,62px);line-height:1.08;font-weight:800;letter-spacing:-.02em;color:#fff;margin-bottom:18px}
+    .hero .subtitle{font-size:clamp(20px,2.4vw,29px);font-weight:700;color:#dff6ff;margin-bottom:22px;line-height:1.25}
+    .hero .summary{font-size:19px;color:#d8e8ed;max-width:610px;margin-bottom:28px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:13px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:14px;padding:13px 20px;text-decoration:none;font-weight:800;line-height:1.2;transition:transform .16s,box-shadow .16s,background .16s}
+    .btn:hover{transform:translateY(-1px)}
+    .btn.primary{background:#fff;color:var(--teal);box-shadow:0 20px 35px -24px #000}
+    .btn.secondary{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.34)}
+    .hero-panel{background:rgba(255,255,255,.95);border-radius:30px;padding:25px;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.64)}
+    .hero-panel .logo-box{background:#fff;border-radius:22px;padding:16px 18px 12px;margin-bottom:18px}
+    .hero-panel img.logo-large{width:100%;height:86px;object-fit:cover;object-position:50% 50%;margin:auto}
+    .metrics{display:grid;gap:12px}
+    .metric{padding:14px 15px;border-radius:17px;background:var(--tint);border:1px solid var(--line)}
+    .metric strong{display:block;color:var(--teal);font-size:20px;line-height:1.1;margin-bottom:3px}
+    .metric span{color:var(--muted);font-size:14.5px}
+
+    main{max-width:var(--max);margin:auto;padding:38px 24px 0}
+    .intro{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:42px;align-items:start;padding:42px 0 22px}
+    .intro-copy{max-width:var(--text)}
+    .intro-copy .lead{font-size:20px;color:var(--ink);font-weight:600;line-height:1.74}
+    .intro p,.content-section p{margin:0 0 15px}
+    .intro p:last-child,.content-section p:last-child{margin-bottom:0}
+    .aside-card{position:sticky;top:92px;background:linear-gradient(180deg,var(--tint),#fff);border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow)}
+    .aside-card h3{font-size:23px;color:var(--teal);line-height:1.2;margin-bottom:13px}
+    .aside-card p{font-size:16px;color:var(--body)}
+    .aside-card .mini{display:grid;gap:10px;margin-top:18px}
+    .aside-card .mini div{display:flex;gap:10px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:15px;padding:12px}
+    .aside-card .mini div::before{content:"";flex:0 0 9px;width:9px;height:9px;border-radius:999px;background:var(--blue);margin-top:9px}
+
+    .content-section{display:grid;grid-template-columns:minmax(0,1fr) 430px;gap:46px;align-items:center;padding:74px 0;border-top:1px solid var(--line)}
+    .content-section.wide{grid-template-columns:minmax(0,1fr)}
+    .content-section.reverse{grid-template-columns:430px minmax(0,1fr)}
+    .content-section.reverse .section-copy{grid-column:2}
+    .content-section.reverse .section-media{grid-column:1;grid-row:1}
+    .section-copy{max-width:var(--text)}
+    .eyebrow{display:inline-flex;color:var(--blue);font-size:14px;font-weight:800;letter-spacing:.02em;margin-bottom:8px}
+    h2{font-size:clamp(27px,3.2vw,42px);line-height:1.18;color:var(--teal);font-weight:800;letter-spacing:-.02em;margin-bottom:20px;position:relative;padding-bottom:14px}
+    h2::after{content:"";position:absolute;right:0;bottom:0;width:64px;height:4px;border-radius:999px;background:var(--blue)}
+    .section-media{border-radius:30px;overflow:hidden;box-shadow:var(--shadow);background:var(--tint);min-height:330px}
+    .section-media img{width:100%;height:100%;min-height:330px;object-fit:cover}
+    .feature-list{list-style:none;display:grid;gap:13px;margin-top:18px}
+    .feature-list.two-col{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .feature-list li{position:relative;background:var(--tint);border:1px solid var(--line);border-radius:18px;padding:16px 44px 16px 18px;font-size:16.5px;line-height:1.65;color:var(--ink)}
+    .feature-list li::before{content:"";position:absolute;right:15px;top:21px;width:16px;height:16px;border-radius:6px;background:var(--blue-soft)}
+    .feature-list li::after{content:"";position:absolute;right:19px;top:24px;width:8px;height:5px;border-right:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(45deg)}
+    .feature-list strong{color:var(--teal);font-weight:800}
+    .callout{margin-top:22px;border:1px solid #cfe5ee;background:linear-gradient(180deg,var(--blue-soft),#fff);border-radius:22px;padding:22px 24px;color:var(--teal);font-weight:600}
+    .quote-card{background:var(--teal);color:#e9f5f8;border-radius:28px;padding:28px;box-shadow:var(--shadow)}
+    .quote-card p{font-size:18px;line-height:1.75}
+
+    .gallery{border-top:1px solid var(--line);padding:74px 0}
+    .gallery-head{max-width:760px;margin-bottom:28px}
+    .gallery-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}
+    .gallery-grid figure{position:relative;border-radius:28px;overflow:hidden;box-shadow:var(--shadow);min-height:300px;background:#dfe8ec}
+    .gallery-grid img{width:100%;height:100%;object-fit:cover;min-height:300px}
+    .gallery-grid figure:nth-child(1){grid-row:span 2;min-height:620px}
+    .gallery-grid figure:nth-child(1) img{min-height:620px}
+    figcaption{position:absolute;right:18px;bottom:18px;color:#fff;background:rgba(7,30,38,.72);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.2);padding:8px 12px;border-radius:999px;font-size:14px;font-weight:700}
+
+    .cta{margin-top:22px;background:linear-gradient(135deg,var(--teal),#0f2c36);color:#fff}
+    .cta-inner{max-width:var(--max);margin:auto;padding:60px 24px;text-align:center}
+    .cta h2{color:#fff;max-width:760px;margin:0 auto 16px}
+    .cta h2::after{right:50%;transform:translateX(50%);background:var(--blue)}
+    .cta p{max-width:650px;margin:0 auto 24px;color:#d0e5eb;font-size:18px}
+    .wa-btn{background:#2a8c5e;color:#fff;box-shadow:0 18px 38px -24px #000}
+    .wa-btn:hover{background:#247a52}
+    .disclaimer{max-width:var(--max);margin:auto;padding:34px 24px;color:var(--muted);font-size:13.5px;line-height:1.7}
+    .disclaimer h3{font-size:15px;color:var(--body);font-weight:800;margin-bottom:8px}
+    footer{background:#0d2d37;color:#a8c6cf;text-align:center;font-size:13.5px;padding:26px 20px;line-height:1.8}
+    footer b{color:#fff}
+    .floating-wa{position:fixed;left:22px;bottom:22px;z-index:70;width:56px;height:56px;border-radius:999px;background:#2a8c5e;display:flex;align-items:center;justify-content:center;box-shadow:0 18px 40px -22px #000;text-decoration:none}
+    .floating-wa svg{width:28px;height:28px}
+
+    @media (max-width: 960px) {
+      .topbar .inner{padding:8px 18px}
+      nav a:not(.nav-cta):not(.lang-switch){display:none}
+      .brand-logo{width:190px;height:52px}
+      .hero-inner{grid-template-columns:1fr;padding-top:60px;gap:24px}
+      .hero::after{background:linear-gradient(180deg,rgba(6,25,31,.35),rgba(6,25,31,.94))}
+      .hero-panel{max-width:460px}
+      .intro,.content-section,.content-section.reverse{grid-template-columns:1fr}
+      .content-section.reverse .section-copy,.content-section.reverse .section-media{grid-column:auto;grid-row:auto}
+      .aside-card{position:relative;top:auto}
+      .feature-list.two-col{grid-template-columns:1fr}
+      .gallery-grid{grid-template-columns:1fr}
+      .gallery-grid figure:nth-child(1),.gallery-grid figure:nth-child(1) img{min-height:360px}
+    }
+    @media (max-width: 620px) {
+      body{font-size:16.5px;line-height:1.74}
+      .hero-inner,main{padding-inline:18px}
+      .hero-card{padding:24px;border-radius:24px}
+      .hero .summary{font-size:17.5px}
+      .hero-panel{padding:18px;border-radius:24px}
+      .hero-panel img.logo-large{height:72px}
+      .content-section,.gallery{padding:52px 0}
+      .section-media,.section-media img{min-height:260px}
+      .floating-wa{left:16px;bottom:16px;width:52px;height:52px}
+    }
+    @media print {
+      .topbar,.progress,.floating-wa,.hero-actions,.cta{display:none}
+      .hero{min-height:auto;background:#fff;color:#000}
+      .hero::before,.hero::after{display:none}
+      .hero-card,.hero-panel{box-shadow:none;background:#fff;color:#000;border:1px solid #ccc}
+    }
+  </style>
+<style>
+    .lang-switch{border:1px solid var(--line);border-radius:999px;padding:8px 13px!important;font-weight:800;background:#fff;color:var(--teal)!important;white-space:nowrap;flex:0 0 auto}
+    .pdf-card{grid-template-columns:130px minmax(0,1fr);align-items:center;max-width:980px;margin:0 auto}
+    .pdf-file-mark{width:112px;height:132px;border-radius:18px;background:linear-gradient(160deg,var(--teal),#5aaed1);color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:800;letter-spacing:.08em;box-shadow:var(--shadow)}
+    .pdf-info{padding:12px}
+    .pdf-note{font-weight:700;color:var(--teal)}
+    @media(max-width:760px){.topbar .inner{gap:8px;padding:8px 10px;min-width:0}.brand{min-width:0;flex:1 1 auto}.brand-logo{width:138px;height:42px}nav{gap:6px;font-size:13.5px;flex:0 0 auto}.nav-cta{padding:7px 9px;white-space:nowrap}.lang-switch{padding:7px 9px!important}.pdf-card{grid-template-columns:1fr}.pdf-file-mark{width:92px;height:108px;margin:0 auto}.pdf-info{text-align:center}.pdf-actions{justify-content:center}}
+
+</style><style>@media(max-width:420px){.brand-logo{width:112px;height:36px}.topbar nav{gap:4px;font-size:12.5px}.nav-cta,.lang-switch{padding:6px 8px!important}.hero-badge{font-size:12.5px;padding:5px 10px}}</style></head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="topbar">
+<div class="inner">
+<a aria-label="Aspect Boutique Investments website" class="brand" href="https://www.aspectboutique.com/">
+<img alt="Aspect Boutique Investments" class="brand-logo" src="../assets/Horizontal.png"/>
+</a>
+<nav aria-label="ניווט ראשי">
+<a href="#model">תהליך הרכישה</a>
+<a href="#houston">יוסטון</a>
+<a href="#ownership">הבעלות</a>
+<a class="nav-cta" href="index.html">לאתר המלא</a>
+<a aria-label="מעבר לאנגלית" class="lang-switch" href="../en/sh.html" hreflang="en" lang="en" dir="ltr">English</a></nav>
+</div>
+</header>
+<section aria-label="פתיח" class="hero" id="top">
+<div class="hero-inner">
+<div class="hero-card">
+<div class="hero-badge" dir="ltr" lang="en">Aspect Boutique Investments</div>
+<h1>רכישת בית חדש ביוסטון: קרקע, ייזום ובנייה</h1>
+<div class="subtitle">כניסה מוקדמת לשרשרת הערך, ובסוף הדרך נכס עצמאי בבעלות מלאה</div>
+<p class="summary">רוכש הבית מתקשר תחילה בהסכם אופציה לרכישת בית מסוים, ובהמשך מממש את הרכישה בהתאם להתקדמות הפרויקט. בסיום הוא רוכש בית חדש המותאם להשכרה ארוכת טווח, בעסקה נפרדת ובבעלות עצמאית.</p>
+<div class="hero-actions">
+<a class="btn primary" href="index.html">מעבר לאתר המלא</a>
+<a class="btn secondary" href="#model">הסבר קצר</a>
+</div>
+</div>
+<aside aria-label="עיקרי תהליך הרכישה" class="hero-panel">
+<div class="logo-box"><a aria-label="Aspect Boutique Investments website" href="https://www.aspectboutique.com/"><img alt="Aspect Boutique Investments" class="logo-large" src="../assets/Horizontal.png"/></a></div>
+<div class="metrics">
+<div class="metric"><strong>כ־$150K בשלב הראשון</strong><span>סכום ראשוני משוער בהתאם לפרויקט ולהסכם הספציפי</span></div>
+<div class="metric"><strong>כ־1.5–2 שנים</strong><span>תהליך ייזום ובנייה עד מסירת הבית</span></div>
+<div class="metric"><strong>בית פרטי עצמאי</strong><span>בעלות ישירה, מימון נפרד וניהול מסודר</span></div>
+</div>
+</aside>
+</div>
+</section>
+<main>
+<section class="intro" id="model">
+<div class="intro-copy">
+<div class="eyebrow">הבסיס לתהליך הרכישה</div>
+<p class="lead">תהליך הרכישה מחבר בין כניסה מוקדמת לשלב הייזום לבין בעלות ישירה וברורה על בית פרטי מסוים המיועד להשכרה.</p>
+<p>נקודת הכניסה היא בשלב מוקדם של התהליך: רכישת קרקע, תכנון, חלוקה, רישוי ובנייה של בתים חדשים בשכונות מתפתחות ביוסטון. הלקוח חותם תחילה על הסכם אופציה לרכישת בית מסוים, ורק בהמשך מממש את הרכישה בהתאם להתקדמות הפרויקט ולהסכמים המחייבים.</p>
+<p>המטרה היא להגיע למועד המסירה עם בית חדש, במחיר שנקבע במסגרת העסקה, וליהנות מהערך שעשוי להיווצר במהלך תהליך הייזום לצד פוטנציאל ההכנסות מהנכס ועליית ערכו לאורך זמן.</p>
+</div>
+<aside class="aside-card">
+<h3>התמונה בקצרה</h3>
+<p>תהליך יזמי המלווה ומתואם מקצה לקצה, שבסופו רוכש הבית מחזיק בנכס ברור, עצמאי ונפרד.</p>
+<div class="mini">
+<div>כניסה בשלב הקרקע והתכנון</div>
+<div>בית חדש שמותאם להשכרה</div>
+<div>בעלות ישירה על נכס מסוים</div>
+</div>
+</aside>
+</section>
+<section class="content-section" id="steps">
+<div class="section-copy">
+<div class="eyebrow">שלושה שלבים</div>
+<h2>איך זה עובד בפועל?</h2>
+<ul class="feature-list">
+<li><strong>שלב 1 — הסכם אופציה וקיבוע תנאים.</strong> הלקוח חותם על הסכם אופציה לרכישת בית מסוים ומעמיד את הסכום הראשוני בהתאם לתנאי העסקה. בשלב זה מקודמים הקרקע, התכנון, החלוקה והרישוי.</li>
+<li><strong>שלב 2 — ייזום ובנייה.</strong> במהלך תקופת התכנון והבנייה החברה מספקת שירותי ליווי, תיאום וניהול התהליך בלבד. החברה אינה מנהלת כספי לקוחות.</li>
+<li><strong>שלב 3 — מימוש הרכישה ומסירה.</strong> בהתאם להתקדמות הפרויקט ולהסכמים המחייבים, הלקוח מממש את האופציה ומשלים את רכישת הבית המסוים שלו. לאחר המסירה ניתן להחזיק בבית, להשכירו, למכור אותו או לבחון מימון מחדש.</li>
+</ul>
+</div>
+<div class="section-media">
+<img alt="שכונת מגורים מתפתחת ביוסטון" loading="lazy" src="../assets/neighborhood-street.jpg"/>
+</div>
+</section>
+<section class="content-section reverse" id="houston">
+<div class="section-copy">
+<div class="eyebrow">בחירת השוק</div>
+<h2>למה יוסטון?</h2>
+<p>יוסטון מציעה שילוב של מטרופולין גדול וצומח, ביקוש משמעותי לשכירות, בסיס כלכלי רחב ומגוון, וסביבת פעילות שנחשבת נוחה יחסית למשכירי נכסים.</p>
+<p>ההתמקדות היא לא רק בעיר עצמה, אלא בשכונות ותיקות שבהן כבר ניתן לראות תהליך התחדשות בפועל: בנייה חדשה, פעילות יזמית פרטית ושינוי הדרגתי באופי הסביבה.</p>
+</div>
+<div class="section-media">
+<img alt="קו הרקיע של יוסטון" loading="lazy" src="../assets/houston-skyline.jpg"/>
+</div>
+</section>
+<section class="content-section wide" id="ownership">
+<div class="section-copy">
+<div class="eyebrow">המוצר והבעלות</div>
+<h2>למה בית חדש ונכס עצמאי?</h2>
+<p>כל רוכש מתקשר בהסכם נפרד ביחס לבית מסוים. הרכישה יכולה להתבצע באמצעות LLC של הרוכש במידת הצורך, והבעלות, המימון וההחלטות ביחס לבית נפרדים מיתר הבתים.</p>
+<ul class="feature-list two-col">
+<li><strong>שליטה כבר מהקרקע.</strong> התכנון, המפרט והמערכות מותאמים מראש להשכרה ארוכת טווח.</li>
+<li><strong>פחות אי־ודאות תפעולית.</strong> בית חדש מתחיל עם מערכות חדשות וצורך נמוך יותר בתחזוקה משמעותית בשנים הראשונות.</li>
+<li><strong>ערך שנוצר בתהליך.</strong> היתרון אינו רק בקבלת בית חדש, אלא בכניסה מוקדמת יותר לשרשרת הייזום.</li>
+<li><strong>נכס עצמאי.</strong> בסוף הדרך רוכש הבית מחזיק בית מסוים בבעלות ישירה, ולא חלק יחסי בפרויקט משותף.</li>
+</ul>
+<div class="callout">
+<p><strong>כל לקוח מתקשר בעסקה נפרדת ורוכש בית מסוים, באמצעות LLC שלו במידת הצורך.</strong> אין רכישת חלק בפרויקט, אין בעלות משותפת ואין השקעה קבוצתית. החברה מספקת שירותי ליווי, תיאום וניהול התהליך בלבד ואינה מנהלת כספי לקוחות.</p>
+</div>
+</div>
+</section>
+<section aria-label="תמונות מהפעילות" class="gallery">
+<div class="gallery-head">
+<div class="eyebrow">יוסטון והנכס</div>
+<h2>שוק צומח, שכונות מתפתחות ובתים חדשים</h2>
+<p>מודל הרכישה מתמקד בחיבור בין אזורי ביקוש מתפתחים לבין בית חדש שמתוכנן מראש להשכרה ולהחזקה ארוכת טווח.</p>
+</div>
+<div class="gallery-grid">
+<figure><img alt="יוסטון" loading="lazy" src="../assets/houston-skyline.jpg"/><figcaption>יוסטון</figcaption></figure>
+<figure><img alt="שכונת מגורים" loading="lazy" src="../assets/neighborhood-street.jpg"/><figcaption>שכונה מתפתחת</figcaption></figure>
+<figure><img alt="בתים חדשים" loading="lazy" src="../assets/homes-exterior.jpg"/><figcaption>בתים חדשים</figcaption></figure>
+</div>
+</section>
+</main>
+<section class="cta" id="contact">
+<div class="cta-inner">
+<h2>רוצים את התמונה המלאה?</h2>
+<p>באתר המלא תמצאו הרחבה על תהליך רכישת הבית, מבנה העסקה והבעלות, תפקיד החברה בליווי ובתיאום, דוגמת פרופורמה ושלבי ההמשך.</p>
+<a class="btn primary" href="index.html" style="display:flex;max-width:360px;margin:0 auto 12px;">מעבר לאתר המלא</a>
+<a aria-label="פתיחת שיחה בוואטסאפ" class="btn wa-btn" href="https://wa.me/972537650555?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%90%D7%AA%D7%A8%20%D7%90%D7%A1%D7%A4%D7%A7%D7%98%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%95%D7%93%20%D7%A2%D7%9C%20%D7%A8%D7%9B%D7%99%D7%A9%D7%AA%20%D7%91%D7%AA%D7%99%D7%9D%20%D7%97%D7%93%D7%A9%D7%99%D7%9D%20%D7%91%D7%99%D7%95%D7%A1%D7%98%D7%95%D7%9F." rel="noopener" target="_blank">
+<svg aria-hidden="true" fill="#fff" height="21" viewbox="0 0 24 24" width="21" xmlns="http://www.w3.org/2000/svg"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm5.8 14.13c-.24.68-1.42 1.31-1.95 1.36-.5.05-.96.24-3.23-.67-2.73-1.08-4.46-3.86-4.6-4.04-.13-.18-1.1-1.46-1.1-2.79 0-1.33.7-1.98.95-2.25.24-.27.53-.34.71-.34.18 0 .35 0 .51.01.16.01.39-.06.6.46.24.58.81 2 .88 2.14.07.14.12.31.02.49-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.14-.28.29-.12.56.16.27.71 1.17 1.53 1.9 1.05.94 1.94 1.23 2.21 1.37.27.14.43.12.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.6-.13.24.09 1.55.73 1.82.86.27.14.45.2.51.31.07.12.07.66-.17 1.32z"></path></svg>
+        פתיחת שיחה ב־WhatsApp
+      </a>
+</div>
+</section>
+<div class="disclaimer">
+<h3>גילוי נאות ודיסקליימר</h3>
+<p>המידע בעמוד זה נועד לצורכי הסברה כללית בלבד ואינו מהווה הצעה לרכישת נכס, ייעוץ השקעות, ייעוץ פיננסי, ייעוץ משפטי, ייעוץ מס או התחייבות לתוצאה כלשהי. נתונים, דוגמאות, טווחים ותחזיות הם אינדיקציות בלבד ועשויים להשתנות בהתאם לשוק ולגורמים שאינם בשליטתנו. כל רוכש נדרש לבצע בדיקות עצמאיות ולהיעזר ביועצים מקצועיים מתאימים לפני קבלת החלטה. החברה מספקת שירותי ליווי, תיאום וניהול התהליך בלבד ואינה מנהלת כספי לקוחות.</p>
+</div>
+<footer>
+<b>Aspect Boutique Investments</b><br/>
+    עמוד קצר המבוסס על עיצוב האתר המלא.
+  </footer>
+<a aria-label="WhatsApp" class="floating-wa" href="https://wa.me/972537650555?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%94%D7%92%D7%A2%D7%AA%D7%99%20%D7%9E%D7%90%D7%AA%D7%A8%20%D7%90%D7%A1%D7%A4%D7%A7%D7%98%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A2%D7%95%D7%93%20%D7%A2%D7%9C%20%D7%A8%D7%9B%D7%99%D7%A9%D7%AA%20%D7%91%D7%AA%D7%99%D7%9D%20%D7%97%D7%93%D7%A9%D7%99%D7%9D%20%D7%91%D7%99%D7%95%D7%A1%D7%98%D7%95%D7%9F." rel="noopener" target="_blank">
+<svg aria-hidden="true" fill="#fff" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm5.8 14.13c-.24.68-1.42 1.31-1.95 1.36-.5.05-.96.24-3.23-.67-2.73-1.08-4.46-3.86-4.6-4.04-.13-.18-1.1-1.46-1.1-2.79 0-1.33.7-1.98.95-2.25.24-.27.53-.34.71-.34.18 0 .35 0 .51.01.16.01.39-.06.6.46.24.58.81 2 .88 2.14.07.14.12.31.02.49-.09.18-.14.29-.27.45-.14.16-.29.36-.41.48-.14.14-.28.29-.12.56.16.27.71 1.17 1.53 1.9 1.05.94 1.94 1.23 2.21 1.37.27.14.43.12.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.22.6-.13.24.09 1.55.73 1.82.86.27.14.45.2.51.31.07.12.07.66-.17 1.32z"></path></svg>
+</a>
+<script>
+    // Update the top progress bar while scrolling
+    const progress = document.getElementById('progress');
+    function updateProgress() {
+      const page = document.documentElement;
+      const max = page.scrollHeight - page.clientHeight || 1;
+      progress.style.width = `${(page.scrollTop / max) * 100}%`;
+    }
+    addEventListener('scroll', updateProgress, { passive: true });
+    updateProgress();
+  </script>
+</body>
+</html>
